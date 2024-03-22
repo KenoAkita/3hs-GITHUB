@@ -1,0 +1,82 @@
+        = = 3hs = =
+
+Blobfrii 3ds client for erista's hShop.
+3hs is licensed under GPLv3 (see: LICENSE).
+Also included is a copy of the "file_forwarder" project, which is the source
+for the applications labelled as "installer" on the hShop website. It is also subject to the GPLv3.
+There are 2 official distributions of this code, one is on the hShop website (main source), another
+is hosted on github (mirror source), at https://github.com/MyPasswordIsWeak/3hs.
+
+
+  = = Special thanks to = =
+
+Ghost, who made me rethink some obfuscation,
+everyone in the hShop discord channel, for giving me motivation by insisting a 3ds client is too hard to make,
+Coin, for his inspiring lua hShop client,
+and Cremè, for making some nice art.
+
+      = = Building = =
+
+Requirements:
+ - mbedtls (for nnc, which is bundled)
+ - bannertool (for building the SMDH)
+ - makerom (for building a CIA)
+ - perl (for build scripts)
+ - devkitarm
+ - libctru
+ - citro2d
+ - citro3d
+
+Run `./build.pl` for a debug build and run `./build.pl --target release --configure release,targets=cia` for a release cia build.
+Configuration only has to be set once, from there on you can build with just the --target flag.
+Configuration may be set as an environment variable or as a key/value pair in the --configure string.
+
+Variables used in the building process:
+ - VERSION=version-int                           only available from the environment
+ - targets,TARGETS=targets-list                  list of targets, these values seperated by spaces: elf, 3dsx, cia, 3dslink
+ - debug,DEBUG=1                                 enable debug flags (default when the release flag is not present)
+ - release,RELEASE=1                             enable optimization + some minor changes for production
+ - full_log,FUL_LOG=1
+ - device_id,DEVICE_ID=device-id-int
+ - debug_server,HS_DEBUG_SERVER="debug-server"
+ - update_base,HS_UPDATE_BASE="update-url"
+ - nb_base,HS_NB_BASE="nbapi-url"
+ - cdn_base,HS_CDN_BASE="cdn-url"
+ - site_url,HS_SITE_URL="hsite-url"
+
+To successfully build you need
+  update_base && (debug_server || (api_base && cdn_base && site_url))
+
+Additionally you need a file called source/hsapi_auth.c with the following contents
+ #include <string.h>
+ const char *hsapi_user = "<api-user>";
+ const int hsapi_password_length = <password-length-int>;
+ void hsapi_password(char *ret) { memcpy(ret, "<api-password>", hsapi_password_length); }
+
+    = = Developement = =
+
+3hs is written in a mix of C and C++, additionally Perl and POSIX shell are used for minor scripting.
+Development is mainly done by the hShop team, however you may send patches either via e-mail or via the
+official hShop Discord server. Github is not used for development, it is just a mirror of the source tree.
+Here is an explication of important directories and their contents:
+
+  3hstool/               contains the source for "3hstool", a tool to create files of various formats used in 3hs
+    default_data/        contains the data for the default light and dark themes
+  3rd/                   contains 3rd party code
+  cia_stuff/             contains all meta files required to build the .cia
+  source/, include/      source code
+    hlink/               incomplete implementation of the hLink server (to be redone)
+    audio/               3hs audio subsystem (C code)
+    ui/                  contains most code relating to the GUI
+    widgets/             contains various miscellaneous widgets for the GUI
+    nbapi/               parser for nbapi (new binary api)
+  data/, romfs/          miscellaneous 3hs runtime files
+  supplement_font/       contains everything required to build the supplementary font 3hs uses
+  gfx/                   some hardcoded images not overridable with the theme system
+  lang/                  files for the translation framework and the script to compile it
+  file_forwarder/        the source for the various "file forwarder" applications found on hShop
+  doc/                   symlink to a directory that contains (html) documentation for various 3hs related things
+
+If you need any help understanding the 3hs codebase feel free to e-mail your questions or to send a message
+in the official hShop discord server.
+
