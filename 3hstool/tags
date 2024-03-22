@@ -1,0 +1,208 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/mnt/devhome/3hs/3hstool/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+CWAV_header	hwav.c	/^struct CWAV_header {$/;"	s	language:C	file:
+CWAV_info_block	hwav.c	/^struct CWAV_info_block {$/;"	s	language:C	file:
+CWAV_magic	hwav.c	/^static const unsigned char CWAV_magic[] = { 'C', 'W', 'A', 'V' };$/;"	v	language:C	typeref:typename:const unsigned char[]	file:
+CWAV_reference	hwav.c	/^struct CWAV_reference {$/;"	s	language:C	file:
+CWAV_sized_reference	hwav.c	/^struct CWAV_sized_reference {$/;"	s	language:C	file:
+DEFCDESC	hstx.c	/^#define DEFCDESC(/;"	d	language:C	file:
+DEFIDESC	hstx.c	/^#define DEFIDESC(/;"	d	language:C	file:
+DESCRIPTOR_MAX	hstx.c	/^#define DESCRIPTOR_MAX /;"	d	language:C	file:
+ERROR_MAXLEN	hlink.c	/^#define ERROR_MAXLEN /;"	d	language:C	file:
+ERROR_OFFSET	hlink.c	/^#define ERROR_OFFSET /;"	d	language:C	file:
+FORMAT_INT	hstx.c	/^#define FORMAT_INT /;"	d	language:C	file:
+HA_add_queue	hlink.h	/^	HA_add_queue    = 0,$/;"	e	language:C++	enum:HAction
+HA_install_data	hlink.h	/^	HA_install_data = 3,$/;"	e	language:C++	enum:HAction
+HA_install_id	hlink.h	/^	HA_install_id   = 1,$/;"	e	language:C++	enum:HAction
+HA_install_url	hlink.h	/^	HA_install_url  = 2,$/;"	e	language:C++	enum:HAction
+HA_launch	hlink.h	/^	HA_launch       = 5,$/;"	e	language:C++	enum:HAction
+HA_nothing	hlink.h	/^	HA_nothing      = 4,$/;"	e	language:C++	enum:HAction
+HA_sleep	hlink.h	/^	HA_sleep        = 6,$/;"	e	language:C++	enum:HAction
+HAction	hlink.h	/^enum HAction$/;"	g	language:C++
+HE_exterror	hlink.h	/^	HE_exterror     = 4, \/* extended error. an error message from the 3ds *\/$/;"	e	language:C++	enum:HError
+HE_notauthed	hlink.h	/^	HE_notauthed    = 1, \/* you didn't call hl_auth() or hl_auth() didn't return 0 *\/$/;"	e	language:C++	enum:HError
+HE_success	hlink.h	/^	HE_success      = 0, \/* success *\/$/;"	e	language:C++	enum:HError
+HE_tidnotfound	hlink.h	/^	HE_tidnotfound  = 3, \/* you tried to interact with a title that was not installed *\/$/;"	e	language:C++	enum:HError
+HE_tryagain	hlink.h	/^	HE_tryagain     = 2, \/* try again, caused by the server being busy *\/$/;"	e	language:C++	enum:HError
+HError	hlink.h	/^enum HError$/;"	g	language:C++
+HR_accept	hlink.h	/^	HR_accept       = 0,$/;"	e	language:C++	enum:HResponse
+HR_busy	hlink.h	/^	HR_busy         = 1,$/;"	e	language:C++	enum:HResponse
+HR_error	hlink.h	/^	HR_error        = 3,$/;"	e	language:C++	enum:HResponse
+HR_notfound	hlink.h	/^	HR_notfound     = 5,$/;"	e	language:C++	enum:HResponse
+HR_success	hlink.h	/^	HR_success      = 4,$/;"	e	language:C++	enum:HResponse
+HR_untrusted	hlink.h	/^	HR_untrusted    = 2,$/;"	e	language:C++	enum:HResponse
+HResponse	hlink.h	/^enum HResponse$/;"	g	language:C++
+HWAV_ChannelInfo	hwav.c	/^	HWAV_ChannelInfo   = 0x7100,$/;"	e	language:C	enum:HWAV_ReferenceType	file:
+HWAV_DataBlock	hwav.c	/^	HWAV_DataBlock     = 0x7001,$/;"	e	language:C	enum:HWAV_ReferenceType	file:
+HWAV_InfoBlock	hwav.c	/^	HWAV_InfoBlock     = 0x7000,$/;"	e	language:C	enum:HWAV_ReferenceType	file:
+HWAV_ReferenceType	hwav.c	/^enum HWAV_ReferenceType {$/;"	g	language:C	file:
+HWAV_SampleData	hwav.c	/^	HWAV_SampleData    = 0x1F00,$/;"	e	language:C	enum:HWAV_ReferenceType	file:
+HWAV_VorbisComment	hwav.c	/^	HWAV_VorbisComment = 0x8000,$/;"	e	language:C	enum:HWAV_ReferenceType	file:
+HWAV_header	hwav.c	/^struct HWAV_header {$/;"	s	language:C	file:
+HWAV_magic	hwav.c	/^static const unsigned char HWAV_magic[] = { 'H', 'W', 'A', 'V' };$/;"	v	language:C	typeref:typename:const unsigned char[]	file:
+HWAV_vendorstring	hwav.c	/^static const unsigned char HWAV_vendorstring[] = "HWAV Reference C Encoder v1.0";$/;"	v	language:C	typeref:typename:const unsigned char[]	file:
+ID_BATTERY_GREEN_CLR	hstx.c	/^		ID_BATTERY_GREEN_CLR = 0x1005,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BATTERY_IMG	hstx.c	/^		ID_BATTERY_IMG       = 0x2002,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BATTERY_RED_CLR	hstx.c	/^		ID_BATTERY_RED_CLR   = 0x1006,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BG_BOT_IMG	hstx.c	/^		ID_BG_BOT_IMG        = 0x2008,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BG_CLR	hstx.c	/^		ID_BG_CLR            = 0x1001,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BG_TOP_IMG	hstx.c	/^		ID_BG_TOP_IMG        = 0x2007,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BTN_BG_CLR	hstx.c	/^		ID_BTN_BG_CLR        = 0x1003,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_BTN_BORDER_CLR	hstx.c	/^		ID_BTN_BORDER_CLR    = 0x1004,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_CHKBX_BORDER_CLR	hstx.c	/^		ID_CHKBX_BORDER_CLR  = 0x1016,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_CHKBX_CHK_CLR	hstx.c	/^		ID_CHKBX_CHK_CLR     = 0x1017,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_GRAPH_LINE_CLR	hstx.c	/^		ID_GRAPH_LINE_CLR    = 0x1018,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_LED_GREEN_CLR	hstx.c	/^		ID_LED_GREEN_CLR     = 0x1013,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_LED_RED_CLR	hstx.c	/^		ID_LED_RED_CLR       = 0x1014,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_MORE_IMG	hstx.c	/^		ID_MORE_IMG          = 0x2001,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_PROGBAR_BG_CLR	hstx.c	/^		ID_PROGBAR_BG_CLR    = 0x1011,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_PROGBAR_FG_CLR	hstx.c	/^		ID_PROGBAR_FG_CLR    = 0x1010,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_RANDOM_IMG	hstx.c	/^		ID_RANDOM_IMG        = 0x2006,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_SCROLLBAR_CLR	hstx.c	/^		ID_SCROLLBAR_CLR     = 0x1012,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_SEARCH_IMG	hstx.c	/^		ID_SEARCH_IMG        = 0x2003,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_SETTINGS_IMG	hstx.c	/^		ID_SETTINGS_IMG      = 0x2004,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_SMDH_BORDER_CLR	hstx.c	/^		ID_SMDH_BORDER_CLR   = 0x1015,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_SPINNER_IMG	hstx.c	/^		ID_SPINNER_IMG       = 0x2005,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_TEXT_CLR	hstx.c	/^		ID_TEXT_CLR          = 0x1002,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_TOGGLE_GREEN_CLR	hstx.c	/^		ID_TOGGLE_GREEN_CLR  = 0x1007,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_TOGGLE_RED_CLR	hstx.c	/^		ID_TOGGLE_RED_CLR    = 0x1008,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+ID_TOGGLE_SLID_CLR	hstx.c	/^		ID_TOGGLE_SLID_CLR   = 0x1009,$/;"	e	language:C	enum:make_hstx_impl::hstx_ident	file:
+MAGIC	hlink.c	/^#define MAGIC /;"	d	language:C	file:
+MAGIC_LEN	hlink.c	/^#define MAGIC_LEN /;"	d	language:C	file:
+PORT	hlink.c	/^#define PORT /;"	d	language:C	file:
+STBI_FAILURE_USERMSG	hstx.c	/^#define STBI_FAILURE_USERMSG$/;"	d	language:C	file:
+STB_IMAGE_IMPLEMENTATION	hstx.c	/^#define STB_IMAGE_IMPLEMENTATION$/;"	d	language:C	file:
+TAKEARG	main.c	/^#define TAKEARG(/;"	d	language:C	file:
+TRYWRITE	hwav.c	/^#define TRYWRITE(/;"	d	language:C	file:
+U16	hstx.c	/^	#define U16(/;"	d	language:C	file:
+U16	hwav.c	/^	#define U16(/;"	d	language:C	file:
+U32	hstx.c	/^	#define U32(/;"	d	language:C	file:
+U32	hwav.c	/^	#define U32(/;"	d	language:C	file:
+U64	hwav.c	/^	#define U64(/;"	d	language:C	file:
+VERSION_INT	hstx.c	/^#define VERSION_INT /;"	d	language:C	file:
+action	hlink.c	/^	uint8_t action; \/\/ enum HAction$/;"	m	language:C	struct:iTransactionHeader	typeref:typename:uint8_t	file:
+adpcmInfoRef	hwav.c	/^	struct CWAV_reference adpcmInfoRef; \/* either cwav_dsp_adpcm_info or cwav_ima_adpcm_info *\/$/;"	m	language:C	struct:cwav_channel_info	typeref:struct:CWAV_reference	file:
+author_offset	hstx.c	/^		u32 author_offset;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+blob_size	hstx.c	/^		u32 blob_size;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+color	hstx.c	/^			} color;$/;"	m	language:C	union:make_hstx_impl::hstx_descriptor::hstx_descriptor_data	typeref:struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_color	file:
+cwav_channel_info	hwav.c	/^struct cwav_channel_info {$/;"	s	language:C	file:
+data	hstx.c	/^		} data;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor	typeref:union:make_hstx_impl::hstx_descriptor::hstx_descriptor_data	file:
+data	hstx.c	/^	u8 *data;$/;"	m	language:C	struct:dynbuf	typeref:typename:u8 *	file:
+dataRef	hwav.c	/^	struct CWAV_sized_reference dataRef;$/;"	m	language:C	struct:CWAV_header	typeref:struct:CWAV_sized_reference	file:
+dynbuf	hstx.c	/^struct dynbuf {$/;"	s	language:C	file:
+dynbuf_cpy_alloc	hstx.c	/^bool dynbuf_cpy_alloc(struct dynbuf *blob, void *data, u32 len)$/;"	f	language:C	typeref:typename:bool
+encoding	hwav.c	/^	uint8_t encoding;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint8_t	file:
+endian	hwav.c	/^	uint16_t endian;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint16_t	file:
+extendedBlockCount	hwav.c	/^	uint16_t extendedBlockCount;$/;"	m	language:C	struct:HWAV_header	typeref:typename:uint16_t	file:
+extendedBlocks	hwav.c	/^	struct CWAV_sized_reference extendedBlocks[];$/;"	m	language:C	struct:HWAV_header	typeref:struct:CWAV_sized_reference[]	file:
+fileSize	hwav.c	/^	uint32_t fileSize;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint32_t	file:
+format_version	hstx.c	/^		u32 format_version;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+g_lasterror	hlink.c	/^static char g_lasterror[ERROR_MAXLEN + 1 + 5 \/* "3ds: " *\/] = "3ds: ";$/;"	v	language:C	typeref:typename:char[]	file:
+get64	main.c	/^static int get64(const char *s, u64 *ull)$/;"	f	language:C	typeref:typename:int	file:
+getcolor	hstx.c	/^static bool getcolor(const char *str, u32 *out)$/;"	f	language:C	typeref:typename:bool	file:
+gettid	main.c	/^static u64 gettid(const char *s)$/;"	f	language:C	typeref:typename:u64	file:
+getulong	main.c	/^static int getulong(const char *s, unsigned long *ul, int base)$/;"	f	language:C	typeref:typename:int	file:
+h	hstx.c	/^				u16 h;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_image	typeref:typename:u16	file:
+hLink	hlink.h	/^typedef struct hLink$/;"	s	language:C++
+hLink	hlink.h	/^} hLink;$/;"	t	language:C++	typeref:struct:hLink
+headerSize	hwav.c	/^	uint16_t headerSize;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint16_t	file:
+hl_addqueue	hlink.c	/^int hl_addqueue(hLink *link, uint64_t *ids, size_t amount)$/;"	f	language:C	typeref:typename:int
+hl_auth	hlink.c	/^int hl_auth(hLink *link)$/;"	f	language:C	typeref:typename:int
+hl_destroylink	hlink.c	/^void hl_destroylink(hLink *link)$/;"	f	language:C	typeref:typename:void
+hl_geterror	hlink.c	/^const char *hl_geterror(int errcode)$/;"	f	language:C	typeref:typename:const char *
+hl_launch	hlink.c	/^int hl_launch(hLink *link, uint64_t tid)$/;"	f	language:C	typeref:typename:int
+hl_makelink	hlink.c	/^int hl_makelink(hLink *link, const char *addr)$/;"	f	language:C	typeref:typename:int
+hl_makelink_geterror	hlink.c	/^const char *hl_makelink_geterror(int errcode)$/;"	f	language:C	typeref:typename:const char *
+hl_sleep	hlink.c	/^int hl_sleep(hLink *link)$/;"	f	language:C	typeref:typename:int
+hl_waittimeout	hlink.c	/^void hl_waittimeout(void)$/;"	f	language:C	typeref:typename:void
+hlink	main.c	/^static int hlink(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	file:
+host	hlink.h	/^	struct addrinfo *host;$/;"	m	language:C++	struct:hLink	typeref:struct:addrinfo *
+hstx_descriptor	hstx.c	/^	struct hstx_descriptor {$/;"	s	language:C	function:make_hstx_impl	file:
+hstx_descriptor_data	hstx.c	/^		union hstx_descriptor_data {$/;"	u	language:C	struct:make_hstx_impl::hstx_descriptor	file:
+hstx_descriptor_data_color	hstx.c	/^			struct hstx_descriptor_data_color {$/;"	s	language:C	union:make_hstx_impl::hstx_descriptor::hstx_descriptor_data	file:
+hstx_descriptor_data_image	hstx.c	/^			struct hstx_descriptor_data_image {$/;"	s	language:C	union:make_hstx_impl::hstx_descriptor::hstx_descriptor_data	file:
+hstx_header	hstx.c	/^	struct hstx_header {$/;"	s	language:C	function:make_hstx_impl	file:
+hstx_ident	hstx.c	/^	enum hstx_ident {$/;"	g	language:C	function:make_hstx_impl	file:
+htonll	hlink.c	/^#define htonll(/;"	d	language:C	file:
+htonll	hlink.c	/^static uint64_t htonll(uint64_t n)$/;"	f	language:C	typeref:typename:uint64_t	file:
+iTransactionHeader	hlink.c	/^typedef struct iTransactionHeader$/;"	s	language:C	file:
+iTransactionHeader	hlink.c	/^} __attribute__((__packed__)) iTransactionHeader;$/;"	t	language:C	typeref:struct:iTransactionHeader	file:
+iTransactionResponse	hlink.c	/^typedef struct iTransactionResponse$/;"	s	language:C	file:
+iTransactionResponse	hlink.c	/^} __attribute__((__packed__)) iTransactionResponse;$/;"	t	language:C	typeref:struct:iTransactionResponse	file:
+ident	hstx.c	/^		u32 ident;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor	typeref:typename:u32	file:
+image	hstx.c	/^			} image;$/;"	m	language:C	union:make_hstx_impl::hstx_descriptor::hstx_descriptor_data	typeref:struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_image	file:
+img_ptr	hstx.c	/^				u32 img_ptr;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_image	typeref:typename:u32	file:
+inc_hlink_h	hlink.h	/^#define inc_hlink_h$/;"	d	language:C++
+infoRef	hwav.c	/^	struct CWAV_sized_reference infoRef;$/;"	m	language:C	struct:CWAV_header	typeref:struct:CWAV_sized_reference	file:
+isauthed	hlink.h	/^	int isauthed;$/;"	m	language:C++	struct:hLink	typeref:typename:int
+loop	hwav.c	/^	uint8_t loop;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint8_t	file:
+loopEndFrame	hwav.c	/^	uint32_t loopEndFrame;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+loopStartFrame	hwav.c	/^	uint32_t loopStartFrame;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+magic	hlink.c	/^	char magic[MAGIC_LEN];$/;"	m	language:C	struct:iTransactionHeader	typeref:typename:char[]	file:
+magic	hlink.c	/^	char magic[MAGIC_LEN];$/;"	m	language:C	struct:iTransactionResponse	typeref:typename:char[]	file:
+magic	hstx.c	/^		char magic[4];$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:char[4]	file:
+magic	hwav.c	/^	char magic[4]; \/* "CWAV" *\/$/;"	m	language:C	struct:CWAV_header	typeref:typename:char[4]	file:
+magic	hwav.c	/^	char magic[4]; \/* "HWAV" *\/$/;"	m	language:C	struct:HWAV_header	typeref:typename:char[4]	file:
+magic	hwav.c	/^	char magic[4]; \/* "INFO" *\/$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:char[4]	file:
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int
+make_hstx	hstx.c	/^int make_hstx(const char *output, const char *cfgfile)$/;"	f	language:C	typeref:typename:int
+make_hstx_impl	hstx.c	/^static int make_hstx_impl(FILE *out, char *in_buf, struct dynbuf *blob, const char *inpath)$/;"	f	language:C	typeref:typename:int	file:
+make_hwav	hwav.c	/^int make_hwav(const char *output, const char *input, int tagc, char *tags[])$/;"	f	language:C	typeref:typename:int
+makeheader	hlink.c	/^static iTransactionHeader makeheader(uint8_t action, uint32_t size)$/;"	f	language:C	typeref:typename:iTransactionHeader	file:
+makehwav	main.c	/^static int makehwav(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	file:
+makesock	hlink.c	/^static int makesock(hLink *link)$/;"	f	language:C	typeref:typename:int	file:
+maketheme	main.c	/^static int maketheme(int argc, char *argv[])$/;"	f	language:C	typeref:typename:int	file:
+name_offset	hstx.c	/^		u32 name_offset;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+nblocks	hwav.c	/^	uint16_t nblocks;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint16_t	file:
+nrefs	hwav.c	/^	uint32_t nrefs;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+ntohll	hlink.c	/^#define ntohll(/;"	d	language:C	file:
+ntohll	hlink.c	/^static uint64_t ntohll(uint64_t n)$/;"	f	language:C	typeref:typename:uint64_t	file:
+num_descriptors	hstx.c	/^		u32 num_descriptors;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+offset	hwav.c	/^	uint32_t offset;$/;"	m	language:C	struct:CWAV_reference	typeref:typename:uint32_t	file:
+offset	hwav.c	/^	uint32_t offset;$/;"	m	language:C	struct:CWAV_sized_reference	typeref:typename:uint32_t	file:
+padding1	hwav.c	/^	uint16_t padding1;$/;"	m	language:C	struct:CWAV_reference	typeref:typename:uint16_t	file:
+padding2	hwav.c	/^	uint16_t padding2;$/;"	m	language:C	struct:CWAV_sized_reference	typeref:typename:uint16_t	file:
+padding3	hwav.c	/^	uint16_t padding3;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint16_t	file:
+pos	hstx.c	/^	u32 pos;$/;"	m	language:C	struct:dynbuf	typeref:typename:u32	file:
+readcheckresp	hlink.c	/^static int readcheckresp(iTransactionResponse *resp, int sock)$/;"	f	language:C	typeref:typename:int	file:
+readdiscard	hlink.c	/^static int readdiscard(int sock)$/;"	f	language:C	typeref:typename:int	file:
+readresp	hlink.c	/^static int readresp(iTransactionResponse *resp, int sock)$/;"	f	language:C	typeref:typename:int	file:
+refs	hwav.c	/^	struct CWAV_reference refs[]; \/* to channel info objects *\/$/;"	m	language:C	struct:CWAV_info_block	typeref:struct:CWAV_reference[]	file:
+reserved0	hstx.c	/^		u32 reserved0[5];$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32[5]	file:
+reserved1	hstx.c	/^				u32 reserved1[2];$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_color	typeref:typename:u32[2]	file:
+reserved1	hwav.c	/^	uint16_t reserved1;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint16_t	file:
+reserved2	hstx.c	/^				u32 reserved2;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_image	typeref:typename:u32	file:
+reserved2	hwav.c	/^	uint32_t reserved2;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+reserved3	hwav.c	/^	uint32_t reserved3;$/;"	m	language:C	struct:cwav_channel_info	typeref:typename:uint32_t	file:
+resp	hlink.c	/^	uint8_t resp; \/\/ enum HResponse$/;"	m	language:C	struct:iTransactionResponse	typeref:typename:uint8_t	file:
+sampleRate	hwav.c	/^	uint32_t sampleRate;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+samplesRef	hwav.c	/^	struct CWAV_reference samplesRef;$/;"	m	language:C	struct:cwav_channel_info	typeref:struct:CWAV_reference	file:
+size	hlink.c	/^	uint32_t size;$/;"	m	language:C	struct:iTransactionHeader	typeref:typename:uint32_t	file:
+size	hlink.c	/^	uint32_t size;$/;"	m	language:C	struct:iTransactionResponse	typeref:typename:uint32_t	file:
+size	hstx.c	/^	u32 size;$/;"	m	language:C	struct:dynbuf	typeref:typename:u32	file:
+size	hwav.c	/^	uint32_t size;$/;"	m	language:C	struct:CWAV_info_block	typeref:typename:uint32_t	file:
+size	hwav.c	/^	uint32_t size;$/;"	m	language:C	struct:CWAV_sized_reference	typeref:typename:uint32_t	file:
+target_version	hstx.c	/^		u32 target_version;$/;"	m	language:C	struct:make_hstx_impl::hstx_header	typeref:typename:u32	file:
+trim	hstx.c	/^static void trim(char **val)$/;"	f	language:C	typeref:typename:void	file:
+typeId	hwav.c	/^	uint16_t typeId;$/;"	m	language:C	struct:CWAV_reference	typeref:typename:uint16_t	file:
+typeId	hwav.c	/^	uint16_t typeId;$/;"	m	language:C	struct:CWAV_sized_reference	typeref:typename:uint16_t	file:
+u16	hstx.c	/^typedef uint16_t u16;$/;"	t	language:C	typeref:typename:uint16_t	file:
+u16	hwav.c	/^static uint16_t u16;$/;"	v	language:C	typeref:typename:uint16_t	file:
+u32	hstx.c	/^typedef uint32_t u32;$/;"	t	language:C	typeref:typename:uint32_t	file:
+u32	hwav.c	/^static uint32_t u32;$/;"	v	language:C	typeref:typename:uint32_t	file:
+u32	main.c	/^typedef uint32_t u32;$/;"	t	language:C	typeref:typename:uint32_t	file:
+u64	hwav.c	/^static uint64_t u64;$/;"	v	language:C	typeref:typename:uint64_t	file:
+u64	main.c	/^typedef uint64_t u64;$/;"	t	language:C	typeref:typename:uint64_t	file:
+u8	hstx.c	/^typedef uint8_t  u8;$/;"	t	language:C	typeref:typename:uint8_t	file:
+value	hstx.c	/^				u32 value;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_color	typeref:typename:u32	file:
+version	hwav.c	/^	uint32_t version;$/;"	m	language:C	struct:CWAV_header	typeref:typename:uint32_t	file:
+w	hstx.c	/^				u16 w;$/;"	m	language:C	struct:make_hstx_impl::hstx_descriptor::hstx_descriptor_data::hstx_descriptor_data_image	typeref:typename:u16	file:
